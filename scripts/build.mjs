@@ -45,8 +45,8 @@ async function main() {
     outdir: "pkg/dist-node",
     bundle: true,
     platform: "node",
-    target: "node14",
-    format: "cjs",
+    target: "node18",
+    format: "esm",
     ...sharedOptions,
   });
 
